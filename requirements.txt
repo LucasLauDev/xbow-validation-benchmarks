@@ -1,0 +1,5 @@
+# Scripts: eda_selected.py (and similar EDA tooling)
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.1
+seaborn>=0.13
