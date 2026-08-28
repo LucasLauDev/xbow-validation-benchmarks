@@ -65,6 +65,7 @@ SELECTED_CATEGORIES = {
     "XXE":               ["xxe"],
     "IDOR":              ["idor"],
     "RCE":               ["command_injection"],
+    "Information Disclosure": ["information_disclosure"]
 }
 
 TAG_TO_CATEGORY: dict[str, str] = {
