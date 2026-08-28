@@ -13,6 +13,7 @@ Selected categories → canonical tag(s):
   XML External Entity Injection (XXE)     → xxe
   IDOR (Insecure Direct Object Reference) → idor
   Remote Code Execution (RCE)             → command_injection
+  Information Disclosure                  → information_disclosure
 """
 
 import json
@@ -31,6 +32,7 @@ SELECTED_CATEGORIES = {
     "XML External Entity Injection (XXE)":      ["xxe"],
     "IDOR (Insecure Direct Object Reference)":  ["idor"],
     "Remote Code Execution (RCE)":              ["command_injection"],
+    "Information Disclosure":                   ["information_disclosure"]
 }
 
 SELECTED_TAGS: set[str] = {tag for tags in SELECTED_CATEGORIES.values() for tag in tags}
