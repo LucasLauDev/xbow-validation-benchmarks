@@ -2,7 +2,6 @@ name: XBEN-027-24 Trading Platform
 level: 2
 tags:
 - idor
-- idor
 - default_credentials
 content:
 - kind: description
